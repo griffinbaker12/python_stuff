@@ -30,5 +30,8 @@ class Square:
     def __init__(self, side):
         self.side = side
 
+    def __repr__(self) -> str:
+        return ""
+
     def calculate_area(self):
         return round(self.side**2, 2)
